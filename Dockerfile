@@ -48,7 +48,7 @@ RUN REGULA_LATEST_VERSION=$(curl -s https://api.github.com/repos/fugue/regula/re
     chmod 755 /usr/local/bin/regula && \
     rm /tmp/regula.tar.gz
 
-FROM ghcr.io/spacelift-io/aws-cli-alpine:2.13.28 AS aws-cli
+FROM ghcr.io/spacelift-io/aws-cli-alpine:2.13.31 AS aws-cli
 
 FROM base
 
