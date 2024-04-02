@@ -76,5 +76,3 @@ RUN echo "Software installed:"; \
     echo "Regula $(regula version)"
 
 USER spacelift
-
-
